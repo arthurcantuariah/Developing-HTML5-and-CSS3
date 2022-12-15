@@ -1,0 +1,26 @@
+@charset "UTF-8"; 
+
+body {
+
+    background-color: #3e3e3e; 
+    color: #ffff;
+    text-align: center;
+
+}  
+
+/*Using pseudo-elements*/ 
+/*The pseudo-elements allows formatting or inclusion fo content in chunks of elements.*/
+
+a.after::after {
+/*Use the pseudo-element after to apply content after the element.*/
+    content: '✨Element After'; 
+    color: red;
+
+} 
+
+a.before::before {
+    /*Use the pseudo-element before to apply content before the element.*/
+        content: '✨Element Before'; 
+        color: red;
+    
+    }
