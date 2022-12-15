@@ -1,0 +1,53 @@
+@charset "UTF-8"; 
+
+body { 
+
+    color: #ffffff;
+    text-align: center; 
+    background-color: #3e3e3e;
+
+} 
+
+
+a {
+    color: white;
+}
+
+/*Using Pseudo-Class*/ 
+/*Use to button*/
+
+button.hover:hover {
+/*Use the pseudo-class houver to generate an animation, when hovering the mouse over the element.*/
+    background-color: #872424;
+
+} 
+
+button.active:active {
+/*Use the pseudo-class active to change the element when you click.*/
+    background-color: rgb(39, 39, 107);
+
+} 
+
+button.disabled:disabled {
+/*The pseudo-class disabled is used for apply a different style to a element disabled.*/
+    background-color: #3e3e3e21;
+
+} 
+
+a.link:link{
+/*The pseudo-class link craet a change when we click on link.*/
+    background-color: #872424;
+
+} 
+
+a.visited:visited {
+/*The psseudo-class change the link when hi is visited.*/
+    background-color: #9acd32;
+
+} 
+
+input.focus:focus {
+/*The pseudo-class focus creat a change in the field when clicked.*/
+    background-color: #9acd32;
+
+}
